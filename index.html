@@ -9,34 +9,69 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #fff;
+            color: #333;
         }
         header {
-            background-color: #333;
+            background-color: #000;
             color: #fff;
-            padding: 10px 0;
+            padding: 20px 0;
             text-align: center;
         }
         nav {
-            margin: 20px;
+            background-color: #333;
+            padding: 10px;
             text-align: center;
         }
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #333;
+            color: #fff;
+        }
+        .hero {
+            background-image: url('https://your-instagram-image-url'); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
         }
         section {
-            padding: 20px;
+            padding: 40px 20px;
             margin: 20px;
-            background-color: #fff;
+        }
+        .about, .projects, .contact, .blog {
+            background-color: #f4f4f4;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .funnel {
+            background-color: #28a745;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .funnel a {
+            color: #fff;
+            background-color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            display: inline-block;
         }
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #333;
+            background-color: #000;
             color: #fff;
         }
     </style>
@@ -52,19 +87,34 @@
         <a href="#contact">Contact</a>
         <a href="#blog">Blog</a>
     </nav>
-    <section id="about">
+    <div class="hero">
+        <h1>Welcome to My World</h1>
+    </div>
+    <section id="about" class="about">
         <h2>About Me</h2>
         <p>Welcome to my personal webpage! I'm KJ Vaughns, a passionate entrepreneur and content creator. On my Instagram and TikTok @kjvaughns, I share insights and tips on various business ventures, including ATMs, vending, FBA, Turo, Airbnb, wholesale & real estate, sales, and e-commerce/dropshipping. Follow along as I guide you through the journey of becoming an entrepreneur!</p>
+        <img src="https://your-instagram-image-url" alt="About Me Image" style="width: 100%; height: auto;"> <!-- Replace with actual image URL -->
     </section>
-    <section id="projects">
+    <section id="projects" class="projects">
         <h2>Projects</h2>
         <p>Explore my latest projects and ventures:</p>
         <ul>
             <li><strong>Guide: Becoming an Entrepreneur</strong> - A comprehensive guide covering various business ventures.</li>
             <li><strong>Instagram & TikTok Content</strong> - Short-form video content on entrepreneurship and business tips.</li>
         </ul>
+        <video width="100%" controls>
+            <source src="https://your-instagram-video-url" type="video/mp4"> <!-- Replace with actual video URL -->
+            Your browser does not support the video tag.
+        </video>
     </section>
-    <section id="contact">
+    <section class="funnel">
+        <h2>Join My Journey</h2>
+        <p>Get involved in my ventures and receive exclusive content and offers:</p>
+        <a href="https://linktr.ee/join_my_sales_team">Join My Sales Team</a>
+        <a href="https://linktr.ee/get_a_free_quote">Get a Free Quote</a>
+        <a href="https://linktr.ee/new_guide_waitlist">Get in Line for the New Guide</a>
+    </section>
+    <section id="contact" class="contact">
         <h2>Contact</h2>
         <p>Feel free to reach out to me through my social media handles or email:</p>
         <ul>
@@ -73,12 +123,15 @@
             <li><strong>Email:</strong> kjvaughns@example.com</li>
         </ul>
     </section>
-    <section id="blog">
+    <section id="blog" class="blog">
         <h2>Blog</h2>
         <p>Check out my latest blog posts on entrepreneurship and business strategies. (Coming soon!)</p>
     </section>
     <footer>
         <p>&copy; 2024 KJ Vaughns. All rights reserved.</p>
     </footer>
+</body>
+</html>
+
 </body>
 </html>
