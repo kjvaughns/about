@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJ Vaughns - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KJ Vaughns</h1>
+        <p>Entrepreneur | Content Creator | Business Guide Author</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my personal webpage! I'm KJ Vaughns, a passionate entrepreneur and content creator. On my Instagram and TikTok @kjvaughns, I share insights and tips on various business ventures, including ATMs, vending, FBA, Turo, Airbnb, wholesale & real estate, sales, and e-commerce/dropshipping. Follow along as I guide you through the journey of becoming an entrepreneur!</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Explore my latest projects and ventures:</p>
+        <ul>
+            <li><strong>Guide: Becoming an Entrepreneur</strong> - A comprehensive guide covering various business ventures.</li>
+            <li><strong>Instagram & TikTok Content</strong> - Short-form video content on entrepreneurship and business tips.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me through my social media handles or email:</p>
+        <ul>
+            <li><strong>Instagram:</strong> <a href="https://instagram.com/kjvaughns" target="_blank">@kjvaughns</a></li>
+            <li><strong>TikTok:</strong> <a href="https://tiktok.com/@kjvaughns" target="_blank">@kjvaughns</a></li>
+            <li><strong>Email:</strong> kjvaughns@example.com</li>
+        </ul>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Check out my latest blog posts on entrepreneurship and business strategies. (Coming soon!)</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 KJ Vaughns. All rights reserved.</p>
+    </footer>
+</body>
+</html>
